@@ -4,7 +4,7 @@
 
 # TouchCheck
 
-- [Installation (Swift 4)](#installation-swift-4)
+- [Installation](#installation)
     - [Cocoapods](#cocoapods)
     - [Manual](#manual)
 - [Usage](#usage)
@@ -38,7 +38,7 @@ TouchCheck.configure(enabled: .always)
 
 ## How it works
 
-It (when explicitly enabled) swizzles viewDidAppear to find, check and overlay debug views on all buttons or any view which has one gesture recognizer.
+It (when explicitly enabled) swizzles viewDidAppear to find, check and overlay debug views on all buttons or inputs (subclasses or any view with an implementation of UIControl), in addition to any view which has one gesture recognizer.
 
 In future, this detection will evolve and be smarter.
 
