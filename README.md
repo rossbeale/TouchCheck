@@ -14,7 +14,8 @@
 
 TouchCheck shows debug overlays on buttons and interactive views based on a typical finger size - it'll show green and red depending on if the view is big enough and avoids clashes with other touch areas.  It works on all views, even if deeply nested within a view controller.
 
-![Example](https://raw.githubusercontent.com/rossbeale/TouchCheck/master/example.png)
+![Example](https://raw.githubusercontent.com/rossbeale/TouchCheck/master/example1.png)
+![Example](https://raw.githubusercontent.com/rossbeale/TouchCheck/master/example2.png)
 
 ## Installation
 
