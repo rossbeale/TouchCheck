@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TouchCheck'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'The easiest way to check interactive views and buttons are suitably sized.'
   s.description      = <<-DESC
   TouchCheck shows debug overlays on buttons and interactive views based on a typical finger size - it'll show green and red depending on if the view is big enough and avoids clashes with other touch areas.
